@@ -1,0 +1,10 @@
+# VS Code 설정 중 task를 제외한 나머지 무시
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/settings.json
+
+# 실행 파일 및 빌드 결과물 무시
+server
+client
+*.o
+*.out
